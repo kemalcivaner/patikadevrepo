@@ -1,0 +1,16 @@
+[22,27,16,2,18,6]
+En başa küçük sayı gelmelidir bunun için sayılara teker teker bakmak suretiyle arama yapılır.
+En küçük sayı 2 olarak bulunur ve baştaki sayı ile yeri değiştirilir.
+[2,27,16,22,18,6]
+
+Aynı işlen 1 indexli sayı için uygulanır.
+[2,6,16,22,18,27]
+
+Daha sonra 3, 4,...,n indexli sayıya kadar aynı işlemler teker teker uygulanır.
+[2,6,16,18,22,27]
+
+ve sonuca ulaşılır.
+
+Big O natation = O(n^2)
+
+Time Complexity average case'dir
